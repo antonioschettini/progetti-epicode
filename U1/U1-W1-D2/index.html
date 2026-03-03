@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <header id="Home">
+    <figure>
+      <div>
+        <img src="./img/logo.svg" width="200" height="100" alt="Logo Epicode" />
+      </div>
+      <figurecaption>Epicode - il Blog dei Developer</figurecaption>
+    </figure>
+    <nav>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Video">Video</a></li>
+        <li><a href="#News">News</a></li>
+        <li><a href="#Articoli">Articoli</a></li>
+      </ul>
+    </nav>
+    <hr />
+  </header>
+  <body>
+    <main>
+      <section id="">
+        <h1>Come Creare un template per i post</h1>
+        <article>
+          <blockquote>
+            <q>di Mario Rossi - pubblicato il 25/10/2020</q>
+          </blockquote>
+        </article>
+        <p>
+          La prima cosa da fare è suddividere in blocchi per il layout della
+          pagina <b>Identificando le parti comuni</b> da applicare a tutte le
+          pagine
+        </p>
+        <ul>
+          Le varie aree saranno suddivise in:
+          <li>Contenuti di intestazione pagina "Header"</li>
+          <li>Contenuti principali della pagina "Main"</li>
+          <li>Contenuti di piè di pagina "Footer"</li>
+        </ul>
+        <h2>Formattazione del codice</h2>
+        <p>
+          Il testo del codice deve essere formattato per
+          <b> Evidenziare e selezionare le parti con il CSS</b> Perciò i primi
+          passi saranno:
+        </p>
+        <ol>
+          <li>
+            Progettare su carta il Markup finale assegnando ad ogni specifico
+            testo il tag assegnato
+          </li>
+          <li>
+            Scrivere L'HTML dai tag esterni a quelli interni e dall'alto verso
+            il basso
+          </li>
+          <li>Applicare il CSS per formattare il layout e lo stile</li>
+        </ol>
+        <p>
+          L'applicazione degli stili CSS è cresciuta negli anni a tal punto da
+          avere una diffusione totale
+        </p>
+        <table>
+          <caption>
+            Diffusione del CSS
+          </caption>
+          <theader>
+            <th>Anno</th>
+            <th>Percentuale di Utilizzo</th>
+            <th>Supporto Browser</th>
+          </theader>
+          <tbody>
+            <tr>
+              <td>2000</td>
+              <td>20%</td>
+              <td>17%</td>
+            </tr>
+            <tr>
+              <td>2002</td>
+              <td>35%</td>
+              <td>22%</td>
+            </tr>
+            <tr>
+              <td>2004</td>
+              <td>45%</td>
+              <td>42%</td>
+            </tr>
+            <tr>
+              <td>2008</td>
+              <td>80%</td>
+              <td>51%</td>
+            </tr>
+            <tr>
+              <td>2012</td>
+              <td>100%</td>
+              <td>76%</td>
+            </tr>
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+      </section>
+      <section id="Video">
+        <p>
+          Un test di valutazione potrà essere fatto tramite il
+          <a href="https://www.youtube.com/watch?v=qs7lka33skI" target="_blank"
+            >Tool online</a
+          >
+          dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto
+          il nostro obiettivo ed essere stati dei veri developers come loro:
+        </p>
+        <video
+          src="./assets/Carriere.it - Introduzione allo sviluppo web HTML & CSS - Stefano Casasola (Epicode).mp4"
+          controls
+          type="video/mp4"
+          width="500"
+        ></video>
+        <hr />
+      </section>
+      <section id="News">
+        <h2>Novità:</h2>
+        <q
+          >Vuoi rimanere aggiornato su tutte le novità del blog? Iscriviti alla
+          newsletter!</q
+        >
+        <form>
+          <label for="email">Compila i campi ed inserisci la tua email</label>
+          <input type="email" placeholder="Inserisci la tua email" required />
+          <button type="submit">Iscriviti</button>
+        </form>
+      </section>
+    </main>
+    <section id="Articoli">
+      <h2>Articoli correlati</h2>
+      <article>
+        <a
+          href="https://forum.mozillaitalia.org/index.php?topic=40108.0"
+          target="_blank"
+          >Validare il codice HTML</a
+        >
+        <p>Categoria: Develop</p>
+        <date>Pubblicato il 18-09-2020</date>
+      </article>
+      <article>
+        <a
+          href="https://www.resizepixel.com/it/reduce-image-in-kb/"
+          target="_blank"
+          >Meno kb nella pagina</a
+        >
+        <p>Categoria: Ottimizzazione</p>
+        <date>Pubblicato il 30-09-2020</date>
+      </article>
+      <article>
+        <a href="https://toolset.mrw.it/html-fixer.html" target="_blank"
+          >Correggere la sintassi</a
+        >
+        <p>Categoria: Develop</p>
+        <date>Pubblicato il 16-09-2020</date>
+      </article>
+    </section>
+    <hr />
+    <footer>
+      <p>Blog Epicode 2023 - Copyright</p>
+      <blockquote>
+        <q
+          >Testata online di
+          <a href="https://it.wikipedia.org/wiki/Mario_Rossi_(terrorista)"
+            >Mario Rossi</a
+          >, registrata con prot. n.2326546 - Via Don Luigi Enaudi 2 - Milano
+          P.IVA 4382948923489 <a href="">info@epicode.school.com</a></q
+        >
+      </blockquote>
+      <div>
+        <button type="button" onclick="window.location.href = '#Home'">
+          Torna su
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>

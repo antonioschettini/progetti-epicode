@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercizio 2 - Pagina Registrazione</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-bottom: 100px;
+      }
+
+      .termini-condizioni {
+        display: flex;
+        align-items: center;
+      }
+
+      .termini-condizioni p {
+        margin-right: 10px;
+      }
+
+      .radiobutton {
+        width: 15px;
+        height: 15px;
+      }
+
+      input {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registrazione - App</h1>
+    <form>
+      <input type="text" placeholder="Nome" required />
+      <input type="text" placeholder="Cognome" required />
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <input type="date" placeholder="Data di nascita" required />
+      <input type="number" placeholder="Telefono" required />
+      <p>Seleziona il tuo genere Musicale:</p>
+      <select required title="Seleziona il tuo genere Musicale">
+        <option value="">-Seleziona Genere Musicale-</option>
+        <option value="Rock">Rock</option>
+        <option value="Pop">Pop</option>
+        <option value="Hip-Hop">Hip-Hop</option>
+      </select>
+      <div class="termini-condizioni">
+        <p>Accetto i termini e le condizioni</p>
+        <input
+          class="radiobutton"
+          type="radio"
+          title="Accetto i termini e le condizioni"
+          required
+        />
+      </div>
+      <button type="submit">Registrati</button>
+    </form>
+    <script>
+      document.querySelector("form").addEventListener("submit", function (e) {
+        e.preventDefault();
+        alert("Registrazione avvenuta con successo!");
+      });
+    </script>
+  </body>
+</html>
