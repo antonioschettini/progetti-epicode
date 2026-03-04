@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  /* background-color: rgb(233, 233, 149); */
+}
+
+#logo {
+  width: 20%;
+  padding-top: 1.2em;
+}
+
+header p {
+  background-color: rgba(255, 255, 175, 0.719);
+  color: darkblue;
+  padding: 1.2em;
+  border-top: solid 3px rgba(255, 217, 0, 0.671);
+  height: 1.2em;
+}
+main h1 {
+  text-align: center;
+}
+/* header hr {
+  border-width: 2px;
+  border-color: rgb(255, 255, 175);
+  margin-block-end: -0.1em;
+} */
+main,
+footer {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#focaccia {
+  width: 100%;
+  height: 100%;
+}
+
+figcaption {
+  color: gray;
+  margin-top: 1.2em;
+  text-align: center;
+}
+
+#focaccia {
+  border-radius: 0.5em;
+}
+
+.figured-red {
+  color: rgb(255, 0, 0);
+  padding-bottom: -0.5em;
+  border-left: solid 1px red;
+  padding-left: 1em;
+  margin-bottom: 3em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+li div {
+  margin-top: 0.5em;
+}
