@@ -1,0 +1,146 @@
+/* Body*/
+body {
+  margin: 0;
+  line-height: 1.5;
+  /* font-family: sans-serif; */
+}
+/* Intestazioni */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 0.75em 0;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.17em;
+  margin: 0.83em 0;
+  font-weight: bold;
+}
+h4 {
+  font-size: 1em;
+  margin: 1.12em 0;
+  font-weight: bold;
+}
+h5 {
+  font-size: 0.83em;
+  margin: 1.5em 0;
+  font-weight: bold;
+}
+h6 {
+  font-size: 0.75em;
+  margin: 1.67em 0;
+  font-weight: bold;
+}
+/* Paragrafi e blocchi */
+p {
+  margin: 1em 0;
+}
+main header,
+footer,
+section,
+main,
+article,
+aside,
+nav {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+}
+/* Liste */
+ul,
+ol {
+  margin: 1em 0;
+  padding-left: 40px;
+}
+ul {
+  list-style-type: disc;
+}
+ol {
+  list-style-type: decimal;
+}
+li {
+  display: list-item;
+}
+/* Citazioni */
+blockquote {
+  margin: 1em 40px;
+}
+q::before {
+  content: open-quote;
+}
+q::after {
+  content: close-quote;
+}
+/* Tabelle */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+tr {
+  display: table-row;
+}
+th,
+td {
+  padding: 1px;
+  border: 1px solid #000;
+}
+/* Link */
+a {
+  text-decoration: underline;
+  color: -webkit-link;
+  cursor: pointer;
+}
+/* Testo enfatizzato */
+b,
+strong {
+  font-weight: bold;
+}
+/* Codice e tasti */
+code,
+kbd {
+  font-family: monospace;
+  font-size: 1em;
+}
+/* Apici e pedici */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+/* Immagini */
+img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+/* Form e input */
+form {
+  margin: 0;
+}
+input,
+button,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+}
